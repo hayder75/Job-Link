@@ -11,7 +11,7 @@ import {
 import { useRouter } from 'expo-router'
 import styles from './welcome.style'
 import { icons, SIZES, } from '../../../constants'
-
+import CustomCard from '../../common/cards/CustomCard';
 const jobType = ['Full-time', 'Part-time', 'Contract-', '-time', '-Type']
 
 const Welcome = () => {
@@ -62,8 +62,12 @@ const Welcome = () => {
 
       </View>
 
+<CustomCard 
+/>
+
     </View>
   )
 }
+
 
 export default Welcome
