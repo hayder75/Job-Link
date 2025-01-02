@@ -1,10 +1,9 @@
 {
   "expo": {
     "scheme": "acme",
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "MyApp",
-    "slug": "MyApp"
+    "plugins": ["expo-router"],
+    "name": "Job-Link",
+    "slug": "Job-Link",
+    "newArchEnabled": true
   }
 }
